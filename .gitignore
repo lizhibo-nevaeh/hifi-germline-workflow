@@ -1,0 +1,43 @@
+# Local configuration
+config/config.sh
+
+# Data and outputs
+data/
+work/
+reference/
+resources/
+aligned_bam/
+dv_gvcf/
+dv_vcf/
+sv_vcf/
+sv_snf/
+cohort/
+qc/
+log/
+tmp/
+
+# Common genomic files
+*.bam
+*.bai
+*.cram
+*.crai
+*.vcf
+*.vcf.gz
+*.bcf
+*.tbi
+*.csi
+*.snf
+*.fasta
+*.fa
+*.fai
+
+# Generated scheduler scripts and logs
+*.slurm.sh
+*.jobid
+*.log
+*.timing.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
