@@ -175,3 +175,20 @@ For larger cohorts, the QC script can submit itself as a SLURM job by using `RUN
 - Paths, scheduler settings, GPU allocation, memory, and thread counts should be adapted to the local environment.
 - The workflow contains both single-sample and cohort-level calling modules.
 - Mendelian consistency and truth-set benchmarking are intentionally kept outside this repository so that routine germline calling and benchmark evaluation remain separate concerns.
+
+---
+
+## Usage & attribution
+
+This repository is shared as part of my academic and technical portfolio.
+
+No open-source license is granted. Reuse, redistribution, or republication
+of substantial portions of this repository is not permitted without prior
+permission.
+
+If you would like to reuse or adapt any part of this work, please contact
+the author and provide appropriate attribution.
+
+**Author:** Zhibo Li
+
+© 2026 Zhibo Li. All rights reserved.
